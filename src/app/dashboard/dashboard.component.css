@@ -1,0 +1,62 @@
+
+
+   .example-container {
+    display: flex;
+    height: 100vh;
+     
+  }
+  
+ 
+.mat-toolbar {
+    background-color: #d21976; /* Set the background color */
+    color: #fff; /* Set the text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the menu button and logo in the mat-toolbar */
+  .mat-toolbar button.mat-icon-button {
+    margin-right: 16px; /* Add spacing between the button and the logo */
+  }
+  
+  .mat-toolbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the extra div in the mat-toolbar */
+  .mat-toolbar .extra {
+    flex-grow: 1; /* Push the extra content to the right */
+  }
+  
+  /* Styling for the mat-drawer */
+  .mat-drawer {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .mat-drawer a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .mat-drawer a:hover {
+    color: #ff0066;
+  }
+  
+  /* Styling for the mat-drawer-content */
+  .mat-drawer-content {
+    flex-grow: 1;
+    padding: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+   

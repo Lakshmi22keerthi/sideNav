@@ -1,0 +1,13 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+<label for="username">Username</label>
+<input type="text" id="username" formControlName="username">
+
+<label for="password">Password</label>
+<input type="password" id="password" formControlName="password">
+<button type="submit" >Login</button> 
+
+<div *ngIf="loginfailed" class="error-message">
+    login failed. Please check ypur username and password.
+</div>
+</form>   
+<a routerLink="/signup">sign Up</a>

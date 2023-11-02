@@ -1,0 +1,13 @@
+
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="nav.toggle()"><mat-icon class="menu" >menu</mat-icon></button>  
+    <div class="logo">menu</div>
+    <div class="extra"></div>
+ </mat-toolbar>
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened="false" #nav>
+   
+        <app-sidebar></app-sidebar> 
+  </mat-drawer>
+  <mat-drawer-content><router-outlet></router-outlet></mat-drawer-content>
+</mat-drawer-container>
