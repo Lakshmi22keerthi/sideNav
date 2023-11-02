@@ -36,4 +36,3 @@ else{
  
 }
 
-//could not add the logic for email ivalid
